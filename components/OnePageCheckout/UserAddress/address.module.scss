@@ -1,0 +1,76 @@
+.userAddressSection {
+  padding: 20px;
+  border: 1px solid #d5d5d5;
+  width: 100%;
+}
+.CheckoutPageTitle {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  margin-bottom: 20px !important;
+}
+.TextField {
+  width: 100% !important;
+}
+.googleAddressBox {
+  display: flex;
+  border: 1px solid #c4c4c4;
+  padding: 0 0.5em;
+  margin: 0;
+  height: 40px;
+  box-shadow: none !important;
+  .addressSearch {
+    width: 100%;
+    outline: none;
+    background: #fff !important;
+    margin: 0;
+
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 0;
+  }
+}
+.manualAddressLink {
+  color: #1c687f;
+  cursor: pointer;
+  font-family: var(--app-primary-font);
+  font-size: var(--app-extra-small-font-size);
+  font-weight: bold;
+}
+.EmailTextField {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 10px;
+  font-family: var(--app-primary-font);
+}
+.EmailTextField label {
+  color: #f44336;
+  font-family: var(--app-primary-font);
+}
+.EmailTextField fieldset {
+  border-color: #f44336;
+  font-family: var(--app-primary-font);
+}
+.EmailTextField input {
+  font-family: var(--app-primary-font);
+}
+
+.googleAddressBoxInvalid {
+  display: flex;
+  border: 1px solid #f44336;
+  padding: 0 0.5em;
+  margin: 0;
+  height: 40px;
+  box-shadow: none !important;
+  .addressSearch {
+    width: 100%;
+    outline: none;
+    background: #fff !important;
+    margin: 0;
+
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 0;
+  }
+}

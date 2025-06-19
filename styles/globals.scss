@@ -1,0 +1,512 @@
+//@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import "theme-fonts";
+@import "theme-colors";
+// @import "~antd/dist/antd.css";
+@import "~antd/dist/reset.css";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+/* vietnamese */
+@font-face {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/font/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk40eiNxw.woff2")
+    format("woff2");
+}
+/* latin-ext */
+@font-face {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/font/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk50eiNxw.woff2")
+    format("woff2");
+}
+/* latin */
+@font-face {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/font/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30eg.woff2")
+    format("woff2");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--app-primary-font) !important;
+}
+.ant-collapse-item > .ant-collapse-header .anticon {
+  transform: rotate(90deg);
+}
+
+.ant-collapse-item-active > .ant-collapse-header .anticon {
+  transform: rotate(180deg);
+}
+
+.MobileNabiBar_LeftSection___ihR6 .MobileNabiBar_MenuSection__NnXNv {
+  max-width: 50%;
+  left: 1px;
+  max-height: 70vh;
+  overflow-x: scroll;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  background-color: blue;
+}
+a {
+  color: inherit;
+  text-decoration: none !important;
+  list-style: none;
+  font-family: var(--app-primary-font) !important;
+}
+
+.MuiButtonBase-root {
+  display: flex !important;
+  padding: 5px !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  padding: 15px !important;
+}
+
+.FooterForMobile_footerLink__eVeFI li {
+  display: block !important;
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  color: var(--app-footer-text-color);
+  font-family: var(--app-primary-font) !important;
+}
+button {
+  font-family: var(--app-primary-font) !important;
+}
+span {
+  font-family: var(--app-primary-font) !important;
+}
+label {
+  font-family: var(--app-primary-font) !important;
+}
+button:focus {
+  outline: none;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--app-primary-font) !important;
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.container-1300 {
+  max-width: 1300px !important;
+}
+.MuiTabs-indicator.css-10d9dml-MuiTabs-indicator {
+  display: none;
+}
+.Testimonial_TestimonialList__9mIZK .swiper-pointer-events {
+  padding-top: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Testimonial_TestimonialList__9mIZK .swiper-button-next,
+.Testimonial_TestimonialList__9mIZK .swiper-button-prev {
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: 9%;
+}
+.Testimonial_TestimonialList__9mIZK .swiper-button-next:after,
+.Testimonial_TestimonialList__9mIZK .swiper-button-prev:after {
+  font-size: 20px;
+}
+.Testimonial_TestimonialList__9mIZK .swiper-button-prev {
+  left: auto;
+  right: 75px;
+}
+// .Sidebar_Tabs__RsknN .Mui-selected {
+//   //border: 2px solid var(--app-primary-background-color) !important;
+//   background: #3b6ed4 !important;
+//   color: #fff !important;
+// }
+// .Sidebar_TabPanel__IT3On .MuiBox-root.css-19kzrtu {
+//   padding-top: 0px;
+//   padding-bottom: 0px;
+// }
+
+.DesktopNaviBar_Tabs__1RByY .Mui-selected {
+  //border: 2px solid var(--app-primary-background-color) !important;
+  //background: #3b6ed4 !important;
+  color: #2595d4 !important;
+}
+.DesktopNaviBar_Tabs__1RByY .MuiBox-root.css-19kzrtu {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.DesktopNaviBar_Autocomplete__Gju3e
+  .MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root {
+  // background: #39a9e8;
+  background: #f4f7f9;
+  border-radius: 0.5rem;
+  padding: 4px 0;
+}
+.DesktopNaviBar_Autocomplete__Gju3e .MuiAutocomplete-inputRoot {
+  padding-left: 30px !important;
+}
+
+#Swiper-Slider .swiper-slide {
+  flex-shrink: 1 !important;
+}
+#Swiper-Slider .swiper {
+  padding: 35px 0 !important;
+}
+
+@media screen and (max-width: 851px) {
+  .Testimonial_TestimonialList__9mIZK .mySwiper {
+    padding-top: 80px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .Testimonial_TestimonialList__9mIZK .swiper-button-next,
+  .Testimonial_TestimonialList__9mIZK .swiper-button-prev {
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 9%;
+  }
+  .Testimonial_TestimonialList__9mIZK .swiper-button-next:after,
+  .Testimonial_TestimonialList__9mIZK .swiper-button-prev:after {
+    font-size: 16px;
+  }
+  .Testimonial_TestimonialList__9mIZK .swiper-button-prev {
+    left: auto;
+    right: 60px;
+  }
+  .Testimonial_TestimonialList__9mIZK .Testimonial_CardContent__lOc8j {
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+}
+
+// .MobileNabiBar_MenuSection__NnXNv
+//   ul
+//   .ant-menu-submenu-active
+//   .ant-menu-submenu-title
+//   i::before {
+//   font-family: "FontAwesome";
+//   font-display: swap;
+//   content: "\f105" !important;
+// }
+.NewArrivedProducts_MobileSlider__knpo0 .swiper-button-next:hover {
+  background: #000;
+}
+.NewArrivedProducts_MobileSlider__knpo0 .swiper-button-next::after {
+  color: #000;
+  font-size: 1rem;
+}
+.NewArrivedProducts_MobileSlider__knpo0 .swiper-button-next:hover::after {
+  color: #fff;
+}
+
+.NewArrivedProducts_MobileSlider__knpo0 .swiper-button-prev {
+  width: 2rem;
+  height: 2rem;
+  line-height: 1.75rem;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+  --tw-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background: #ffffff;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+  top: 40%;
+  left: 2px;
+}
+.NewArrivedProducts_MobileSlider__knpo0 .swiper-button-prev:hover {
+  background: #000;
+}
+.NewArrivedProducts_MobileSlider__knpo0 .swiper-button-prev::after {
+  color: #000;
+  font-size: 1rem;
+}
+.NewArrivedProducts_MobileSlider__knpo0 .swiper-button-prev:hover::after {
+  color: #fff;
+}
+
+.NewArrivedProducts_MobileSlider__knpo0 .swiper-button-next {
+  width: 2rem;
+  height: 2rem;
+  line-height: 1.75rem;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+  --tw-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background: #ffffff;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+  top: 40%;
+  right: 2px;
+}
+.NewArrivedProducts_MobileSlider__knpo0 .swiper-button-next {
+  top: 93%;
+  right: 40%;
+  border-radius: 0;
+}
+
+.NewArrivedProducts_MobileSlider__knpo0 .swiper-button-prev {
+  top: 93%;
+  left: 40%;
+  border-radius: 0;
+}
+// commenting to remove the bug - product page, image full screen
+// .image-gallery-content .image-gallery-slide .image-gallery-image {
+//   max-height: none !important;
+// }
+.image-gallery-content.bottom.fullscreen
+  .image-gallery-slide
+  .image-gallery-image {
+  max-height: calc(100vh - 80px) !important;
+  object-fit: contain !important;
+}
+
+.RecommendedProducts_MobileSlider__uZz8v .swiper-button-next:hover {
+  background: #000;
+}
+.RecommendedProducts_MobileSlider__uZz8v .swiper-button-next::after {
+  color: #000;
+  font-size: 1rem;
+}
+.RecommendedProducts_MobileSlider__uZz8v .swiper-button-next:hover::after {
+  color: #fff;
+}
+
+.RecommendedProducts_MobileSlider__uZz8v .swiper-button-prev {
+  width: 2rem;
+  height: 2rem;
+  line-height: 1.75rem;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+  --tw-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background: #ffffff;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+  top: 40%;
+  left: 2px;
+}
+.RecommendedProducts_MobileSlider__uZz8v .swiper-button-prev:hover {
+  background: #000;
+}
+.RecommendedProducts_MobileSlider__uZz8v .swiper-button-prev::after {
+  color: #000;
+  font-size: 1rem;
+}
+.RecommendedProducts_MobileSlider__uZz8v .swiper-button-prev:hover::after {
+  color: #fff;
+}
+
+.RecommendedProducts_MobileSlider__uZz8v .swiper-button-next {
+  width: 2rem;
+  height: 2rem;
+  line-height: 1.75rem;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+  --tw-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background: #ffffff;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+  top: 40%;
+  right: 2px;
+}
+.RecommendedProducts_MobileSlider__uZz8v .swiper-button-next {
+  top: 93%;
+  right: 40%;
+  border-radius: 0;
+}
+
+.RecommendedProducts_MobileSlider__uZz8v .swiper-button-prev {
+  top: 93%;
+  left: 40%;
+  border-radius: 0;
+}
+@media (max-width: 768px) {
+  .ImageGallery .image-gallery-thumbnail {
+    width: 50px !important;
+  }
+}
+
+.css-1k88rtw {
+  position: fixed !important;
+  z-index: 99;
+}
+.css-dip3t8 {
+  position: static !important;
+}
+
+#nprogress .spinner {
+  right: 50% !important;
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 12px 28px rgb(0 0 0 / 20%);
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1440px !important;
+  }
+}
+.indexprofile_Tabs__Zi9_s
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background: var(--app-primary-background-color);
+  color: #fff;
+}
+.css-19kzrtu {
+  padding: 0px !important;
+}
+.css-ja5taz-MuiTooltip-tooltip {
+  text-transform: capitalize;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background: none !important;
+  background-color: var(--app-primary-background-color) !important;
+}
+#PropertiesSelectBox
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 48px !important;
+  padding: 8px 11px !important;
+  border: 1px solid #c7ccde;
+  border-radius: 8px;
+}
+.searchLoader {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  width: 100%;
+  max-height: 450px;
+  min-height: 450px;
+  border: 1px solid #f4f5f9;
+  div {
+    display: contents !important;
+  }
+}
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+  display: none;
+}
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 60px !important;
+}
+
+.image-gallery-slide-wrapper {
+  border: 0.5px solid #ececec;
+}
+.image-gallery-slide-wrapper:hover .image-gallery-left-nav {
+  display: block;
+}
+.image-gallery-slide-wrapper:hover .image-gallery-right-nav {
+  display: block;
+}
+// Customization custom styles
+#selectCableBox
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background: #ffffff !important;
+  border: 0.939337px solid #c7ccde !important;
+  border-radius: 7.5147px !important;
+}
+
+#selectCableBox .ant-input {
+  border: 2px solid #f6821f !important;
+}
+#selectCableBox .ant-input:focus {
+  outline: none !important;
+}
+#Swiper-Slider-Category .mySwiper {
+  //height: 245px;
+  //padding: 0px 50px;
+}
+
+// #Swiper-Slider-Category .swiper-pagination-bullets {
+//   bottom: -30px;
+// }
+
+.DesktopNaviBar_Accordion__giY3c .MuiCollapse-vertical {
+  background-color: var(--app-primary-background-color) !important;
+}
+
+.MuiMenu-paper {
+  // color: var(--app-footer-text-color);
+  // color: white;
+  font-family: var(--app-primary-font) !important;
+  background-color: var(--app-primary-background-color) !important;
+}
+.mobile-accordion-parent-div .MuiAccordion-root {
+  font-family: var(--app-primary-font) !important;
+  background-color: var(--app-primary-background-color) !important;
+}
+.mobile-accordion-parent-div .MuiTypography-root {
+  color: #fff !important;
+}
+
+// START => TO HIDE PREVIEW TEXT ON ANTD IMAGE HOVER
+.certificateImageRow .ant-image-mask-info {
+  color: transparent !important; /* make the text invisible */
+  user-select: none !important; /* prevent selection of the text */
+}
+
+.certificateImageRow .ant-image-mask-info .anticon-eye {
+  color: #fff !important;
+}
+// END => TO HIDE PREVIEW TEXT ON ANTD IMAGE HOVER
+@media screen and (max-width: 479px) and (min-width: 310px) {
+  #Swiper-Slider-Category .swiper-button-next:after {
+    font-size: 22px !important;
+  }
+  #Swiper-Slider-Category .swiper-button-prev:after {
+    font-size: 22px !important;
+  }
+  .MobileSlider {
+    display: block;
+  }
+  // // this is the css to make grid take entire height but not working
+  // #MobileSliderContainer .swiper-slide {
+  //   display: flex !important;
+  //   flex-flow: column !important;
+  //   height: 100% !important;
+  // }
+}
+
+.CustomCard .ant-card-body {
+  padding: 10px !important;
+}

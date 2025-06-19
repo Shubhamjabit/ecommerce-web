@@ -1,0 +1,27 @@
+.col_1 {
+}
+.col_2 {
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #222222 !important;
+  opacity: 1;
+  margin-top: 0px;
+  height: 44px;
+  margin-left: 10px;
+  //max-width: 300px;
+  width: 70%;
+  overflow: hidden;
+}
+.row {
+  cursor: pointer;
+  padding: 5px;
+}
+// .row:hover{
+//   border-bottom: 2px solid #24408d;
+// }
+
+.loader {
+  font-size: 8px;
+}

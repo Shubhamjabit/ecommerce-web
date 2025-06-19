@@ -1,0 +1,160 @@
+.HomeProductList {
+  background: #fafafa;
+  padding: 50px;
+  margin: 20px 0px;
+  padding-bottom: 20px !important;
+  // position: relative;
+  // height: 100%;
+  .HomeProductListTitle {
+    color: #1b66a1;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+.ProductGrid {
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fill, minmax(227px, 1fr));
+  display: grid;
+}
+.ProductGrid a {
+  display: contents;
+}
+
+.viewAllButtonContainer {
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.viewAllButtonContainer .viewAllButton {
+  background-color: #ff8800;
+  color: white;
+  border: none;
+  padding: 7px 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.viewAllButtonContainer .viewAllButton:hover {
+  background-color: #e67600;
+}
+
+.productItemBoxHome {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--color-light), var(--tw-bg-opacity));
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+}
+.productImage {
+  height: 7rem;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  display: flex;
+  //position: relative;
+}
+.productName {
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  display: flex;
+  //position: relative;
+  color: #2595d4;
+  text-align: center;
+  font-size: 14px;
+}
+.MobileSlider {
+  display: none;
+}
+.ViewMoreContainer {
+  margin-top: 30px;
+  // margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .HoverEffect {
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+    background: #f6821f;
+    color: #fff;
+    /* max-width: 200px; */
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .HoverEffect:hover {
+    // background: #fff;
+    color: #fff;
+  }
+  .HoverEffect:after,
+  .HoverEffect:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-transition: all 0.9s ease 0s;
+    transition: all 0.9s ease 0s;
+    opacity: 1;
+    background-color: hsla(0, 0%, 100%, 0.6);
+  }
+  .HoverEffect:before {
+    -webkit-transform: translate(105%);
+    transform: translate(105%);
+    border-top: 1px solid hsla(0, 0%, 100%, 0.4);
+  }
+  .HoverEffect:after {
+    -webkit-transform: translate(-105%);
+    transform: translate(-105%);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.4);
+  }
+  .HoverEffect:hover:after,
+  .HoverEffect:hover:before {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 479px) and (min-width: 310px) {
+  .MobileSlider {
+    display: block;
+  }
+  // this is the css to make grid take entire height but not working
+  #MobileSliderContainer .swiper-slide {
+    display: flex !important;
+    flex-flow: column !important;
+    height: 100% !important;
+  }
+  .ProductGrid {
+    display: none;
+  }
+  .ViewMoreContainer {
+    display: none;
+  }
+  .MobileSlider {
+    padding: 0px;
+    padding-bottom: 70px !important;
+  }
+  .HomeProductList {
+    padding: 20px 0px;
+    .HomeProductListTitle {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  .viewAllButtonContainer {
+    display: none !important;
+  }
+}

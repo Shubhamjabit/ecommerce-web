@@ -1,0 +1,183 @@
+.MobileNaviBar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 12;
+}
+.TopBar {
+  background: #fff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  .StackBar {
+    justify-content: flex-end;
+    svg {
+      color: #2651a8;
+    }
+  }
+}
+.SwipeableDrawer {
+  .Menu {
+    background-color: var(--app-primary-background-color);
+    height: 100%;
+  }
+  li {
+    border-bottom: 1px solid #548dff;
+    background-color: var(--app-primary-background-color) !important;
+    margin: 0px !important;
+  }
+  span {
+    color: #fff;
+  }
+}
+.navbar {
+  background-color: var(--app-primary-background-color);
+  position: relative;
+}
+.LeftSection {
+  background-color: var(--app-primary-background-color);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  .MenuButton {
+    width: 100%;
+    color: #fff;
+    padding: 0;
+    text-transform: capitalize;
+    border: none;
+  }
+  .MenuSection {
+    background-color: var(--app-primary-background-color);
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    li:active {
+      background: none !important;
+      background-color: var(--app-primary-background-color) !important;
+    }
+    ul {
+      background: none;
+    }
+    ul ul {
+      background: #eaeaea;
+    }
+    ul ul ul {
+      background: #fff;
+    }
+    ul li {
+      color: #fff !important;
+      border-bottom: 1px solid #548dff !important;
+    }
+    ul li:active {
+      background: none !important;
+      background-color: var(--app-primary-background-color) !important;
+    }
+    ul li:last-child {
+      border-bottom: none !important;
+    }
+    ul ul li {
+      color: #3b6ed4 !important;
+      border-bottom: 1px solid #3b6ed4 !important;
+    }
+    ul ul ul li {
+      color: #000 !important;
+      border-bottom: 1px solid #c0c0c0 !important;
+      background-color: #fff !important;
+      background: none !important;
+    }
+    ul ul ul li::after {
+      display: none !important;
+    }
+    ul li i {
+      color: #fff !important;
+    }
+    ul ul li i {
+      color: #3b6ed4 !important;
+    }
+    ul ul ul li i {
+      color: #000 !important;
+    }
+    ul li div {
+      color: #fff !important;
+      background: none !important;
+    }
+    ul ul li div {
+      color: #3b6ed4 !important;
+      background: none !important;
+    }
+    ul ul ul li div {
+      color: #000 !important;
+      background: none !important;
+    }
+  }
+}
+.RightSection {
+  background: #eef2ff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  .StackBar {
+    justify-content: flex-end;
+  }
+  .StackBar .Avatar {
+    background: #fff;
+    svg {
+      color: #2651a8;
+    }
+  }
+}
+.searchBar {
+  padding: 10px 10px;
+}
+
+.dropdownSearch {
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 300px;
+  top: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  border-radius: 0%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  .loader {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    div {
+      display: contents !important;
+    }
+  }
+}
+.col_2 {
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #222222 !important;
+  opacity: 1;
+  margin-top: 0px;
+  height: 44px;
+  padding: 0px;
+  width: 75%;
+}
+.row {
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 1px solid #b0deff;
+}
+.ProductImage {
+  max-width: 100%;
+}
+
+.row .col_1 {
+  width: 25%;
+}

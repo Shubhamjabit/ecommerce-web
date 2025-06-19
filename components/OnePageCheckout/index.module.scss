@@ -1,0 +1,30 @@
+.OnePageCheckout {
+  padding: 10px;
+}
+.emptyCart {
+  padding-bottom: 4rem;
+  text-align: center !important;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.emptyCart .Text {
+  margin-bottom: 2rem !important;
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+.emptyCart .Text p {
+  color: #646f79;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 479px) and (min-width: 310px) {
+  .OnePageCheckout {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

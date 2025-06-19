@@ -1,0 +1,91 @@
+.SocketContainer {
+  background: transparent;
+  border-radius: 10.3327px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .CustomizeImageBox {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    .MainImg {
+      width: 100%;
+      height: 180px;
+      margin: auto;
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      .leftImg {
+        // width: 160px;
+        width: 145px;
+        transform: rotateX(180deg);
+        margin-top: 8px;
+        img {
+          width: 100%;
+          cursor: pointer;
+        }
+        &:hover {
+          // transform: scale(1.06);
+          // background-color: #FFFFFF;
+        }
+      }
+      .heatSinkImg {
+        width: 100px !important;
+        margin-top: 1%;
+        z-index: 10;
+        // transform: translate(-24px, -3px);
+        transform: translate(-31px, -2px);
+      }
+      .centerImg {
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+        // transform: translate(-24px, -1px);
+        transform: translate(-32px, 1px);
+        img {
+          width: 112%;
+          cursor: pointer;
+        }
+        &:hover {
+          // transform: scale(1.05);
+        }
+      }
+      .rightImg {
+        width: 145px;
+        // transform: rotateX(180deg);
+        // transform: translate(-21px, 4px);
+        transform: translate(-38px, 5px);
+        img {
+          width: 100%;
+          cursor: pointer;
+        }
+        &:hover {
+          // transform: scale(1);
+        }
+      }
+      .heatSinkImg2 {
+        width: 99px !important;
+        margin-top: 1%;
+        z-index: 10;
+        // transform: translate(4px, -3px);
+        transform: translate(-6px, -2px);
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) and (min-width: 310px) {
+  .SocketContainer {
+    .CustomizeImageBox {
+      width: 100%;
+      position: relative;
+      top: 0;
+      .MainImg {
+        height: auto !important;
+      }
+    }
+  }
+}

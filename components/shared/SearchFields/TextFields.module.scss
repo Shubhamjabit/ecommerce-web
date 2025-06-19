@@ -1,0 +1,65 @@
+.defaultTextBox {
+  border: 1px solid var(--app-secondary-border-color);
+  border-radius: 2px;
+  background-color: #f9f9f9;
+  padding-left: 40px;
+  ::placeholder {
+    color: var(--app-sub-title-color);
+    opacity: 0.4;
+    font-family: var(--app-primary-font);
+    font-size: var(--app-small-font-size);
+  }
+
+  &:hover {
+    border: 1px solid var(--app-primary-btn-border-color);
+    border-radius: 2px;
+  }
+  &:focus {
+    border: 1px solid var(--app-primary-btn-border-color);
+    border-radius: 2px;
+    box-shadow: 0 0 0 0rem rgb(34 34 34);
+    // background-color: red;
+  }
+}
+
+.defaultActionText {
+  color: #a5a5a5;
+  font-family: var(--app-primary-font);
+  font-size: var(--app-extra-small-font-size);
+  float: left;
+  margin-top: -30px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+//Media Queries
+$breakpoint-min-mobile-se: 319px;
+$breakpoint-max-mobile-se: 568px;
+$breakpoint-min-mobile: 360px;
+$breakpoint-max-mobile: 687px;
+$breakpoint-min-mobile-plus: 400px;
+$breakpoint-max-mobile-plus: 767px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+
+@media (min-width: $breakpoint-min-mobile-se) and (max-width: $breakpoint-max-mobile-se) {
+  .defaultTextBox {
+    // max-width: 280px !important;
+  }
+}
+
+@media (min-width: $breakpoint-min-mobile) and (max-width: $breakpoint-max-mobile) {
+  .defaultTextBox {
+    min-width: 320px !important;
+  }
+}
+
+// @media (min-width: $breakpoint-min-mobile-plus) and (max-width: $breakpoint-max-mobile-plus) {
+//   .defaultTextBox {
+//     min-width: 400px !important;
+//   }
+// }
+
+@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+}

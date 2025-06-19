@@ -1,0 +1,292 @@
+.PlaceOrder {
+  color: #fff !important;
+  background: #232323 !important;
+  width: 100%;
+  padding: 10px 0px !important;
+  font-size: 1rem !important;
+  margin-bottom: 30px !important;
+}
+.skeletonColor {
+  background: gainsboro !important;
+}
+
+.discountTextApplied {
+  color: #43b963;
+}
+.discountTextInvalid {
+  color: #db5151;
+}
+.discountField {
+  display: flex;
+  width: 100%;
+  box-shadow: none !important;
+  border: 1px solid gainsboro;
+  padding: 0 0 0 0.5em;
+  .discountClear {
+    min-width: auto !important;
+    outline: none;
+    color: #ff0000 !important;
+    background: #fff !important;
+  }
+}
+.cardError {
+  text-align: left;
+  //font: normal normal normal 12px/18px Muli;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #ff0000;
+  opacity: 1;
+  display: block;
+  margin-bottom: 5px;
+}
+.LoaderButton {
+  width: 20px !important;
+  height: 20px !important;
+}
+.buttonDisabled {
+  background: rgba(0, 0, 0, 0.6) !important;
+  color: #fff !important;
+  width: 100%;
+  padding: 10px 0px !important;
+  font-size: 1rem !important;
+  margin-bottom: 30px !important;
+}
+.Titles {
+  margin-bottom: 15px !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  font-family: var(--app-primary-font) !important;
+}
+.PaymentTabs .PaymentTab {
+  border: 1px solid #cecece !important;
+  width: 50%;
+}
+.PaymentTabs .PaymentTab .PaymentIcon {
+  max-width: 100%;
+  width: 70px;
+}
+.PaymentTabPanel {
+  padding: 0px;
+  background-color: #ebebeb;
+  border: 1px solid;
+  border-color: var(--app-primary-border-color);
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+.discountVoucherSuccess {
+  color: var(--app-secondary-highlighted-text-color);
+  font-family: var(--app-primary-font);
+  margin: 0;
+}
+.discountVoucherFail {
+  color: var(--app-primary-highlighted-text-color);
+  font-family: var(--app-primary-font);
+  margin: 0;
+}
+.placeorderButtonGrid {
+  margin-top: 1em;
+}
+.term {
+  text-align: center;
+  //font: normal normal normal 12px/18px Muli;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  margin-top: 0px;
+  cursor: pointer;
+}
+.DiscountSection {
+  margin-bottom: 30px;
+  padding: 0;
+}
+.DiscountDiv {
+  display: flex;
+}
+.DiscountSection .TextField {
+  color: #000;
+  width: 100%;
+}
+.DiscountSection .TextField div {
+  border-radius: 0px;
+}
+.DiscountSection button {
+  background: #02687e;
+  color: #fff;
+  min-width: 140px;
+  border-radius: 0px;
+}
+.DiscountSection button:hover {
+  background: #232323;
+}
+
+.OrderSummarySection {
+  margin-bottom: 30px;
+  background: #ebebeb;
+  padding: 0;
+}
+
+.OrderSummarySection .Titles {
+  color: #000;
+  padding: 13px 13px 0px 13px;
+  margin-bottom: 0px !important;
+}
+.OrderSummarySection .Summary {
+  color: #000;
+}
+.OrderSummarySection li span {
+  font-size: 12px;
+  font-family: var(--app-primary-font);
+}
+.OrderSummarySection .List {
+  padding: 0px 15px;
+}
+.OrderSummarySection .List div {
+  margin: 2px 0px;
+}
+.OrderSummarySection .Summary .Amount span {
+  font-weight: bold;
+}
+.OrderSummarySection .Summary .TotalAmount span {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: var(--app-primary-font);
+}
+
+.OrderSummarySection .Summary .TotalPrice {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: var(--app-primary-font);
+}
+
+.cartElement {
+  margin: 0;
+  padding: 20px 20px;
+  border-style: none;
+  background-color: #ffffff;
+  will-change: opacity, transform;
+  box-shadow: 0 6px 9px rgb(50 50 93 / 6%), 0 2px 5px rgb(0 0 0 / 8%),
+    inset 0 1px 0 #ffffff;
+  border-radius: 4px;
+}
+
+.zipDivInfBox {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  opacity: 1;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.zipDivInftitle {
+  text-align: left;
+  font-family: var(--app-primary-font);
+  font-weight: var(--app-bold-font-weight);
+  font-size: var(--app-default-font-size);
+  letter-spacing: 0px;
+  color: var(--app-primary-font-color);
+  opacity: 1;
+  margin-top: 25px;
+}
+.zipDivInftitle:first-child {
+  margin-top: 0px;
+}
+.zipDivInftext {
+  text-align: justify;
+  font-family: var(--app-primary-font);
+  font-size: var(--app-small-font-size);
+  letter-spacing: 0px;
+  color: #000;
+  opacity: 1;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.zipDivInflink {
+  text-align: left;
+  text-decoration: underline;
+  font-family: var(--app-primary-font);
+  font-weight: var(--app-primary-font-weight);
+  font-size: var(--app-small-font-size);
+  letter-spacing: 0px;
+  color: var(--app-primary-font-color);
+  opacity: 1;
+}
+.BootstrapDialogTitle {
+  font-weight: bold;
+  padding: 10px 20px !important;
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    button {
+      padding: 0px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+}
+.CreditNotePaymentPanel {
+  padding: 20px;
+  background-color: #ebebeb;
+  border: 1px solid;
+  border-color: var(--app-primary-border-color);
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+.creditnoteSection {
+  background: #ebebeb;
+  svg {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  .creditnoteList {
+    padding: 0px 10px;
+  }
+  .ListItemText {
+    text-align: right;
+  }
+  .Amount {
+    font-size: 12px;
+  }
+  .ListItemIcon {
+    min-width: 30px;
+  }
+  .ApplyButton {
+    color: #019806;
+    background: none !important;
+    padding: 0px !important;
+    font-size: 11px;
+    min-width: auto;
+  }
+  .InvalidButton {
+    color: #980101;
+    background: none !important;
+    padding: 0px !important;
+    font-size: 11px;
+    min-width: auto;
+    cursor: not-allowed;
+  }
+  .RemoveButton {
+    color: #980101;
+    background: none !important;
+    padding: 0px !important;
+    font-size: 11px;
+    min-width: auto;
+  }
+  .creditnoteCode {
+    line-height: 1.5;
+    font-weight: 500;
+    color: rgb(79, 79, 79);
+    display: inline;
+    padding: 0.2px 8px;
+    font-size: 12px;
+    border: 1px dashed #02687e;
+    background-color: rgb(247, 250, 255);
+    margin-right: 8px;
+  }
+}

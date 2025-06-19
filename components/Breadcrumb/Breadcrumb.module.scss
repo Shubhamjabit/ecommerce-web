@@ -1,0 +1,43 @@
+.breadcrumb {
+  --tw-shadow: 0 5px 10px 0 rgb(0 0 0/0.05);
+  --tw-shadow-colored: 0 5px 10px 0 var(--tw-shadow-color);
+  //margin-bottom: 30px;
+  // box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+  //   var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.breadcrumb > ol {
+  background-color: #fff;
+  margin-bottom: 0px;
+  padding: 10px 0px;
+}
+
+.breadcrumb > ol > li {
+  text-align: left;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: var(--app-secondary-font-color);
+  opacity: 1;
+  text-transform: capitalize;
+}
+
+.breadcrumb > ol > li > a {
+  text-align: left;
+  letter-spacing: 0px;
+  color: var(--app-secondary-font-color);
+  opacity: 1;
+}
+
+.activeTile {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #02687e !important;
+  opacity: 1;
+}
+
+// .breadcrumb > ol > li + li:before {
+//   font-family: "FontAwesome";
+//   font-display: swap;
+//   content: "\f105" !important;
+//   color: #c4c4c4 !important;
+// }

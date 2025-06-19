@@ -1,0 +1,491 @@
+.CustomizationWrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  .ItemCustomizationContainer {
+    width: 100%;
+    height: auto;
+    .HeaderTitle {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      h1 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 24px;
+        letter-spacing: -0.006em;
+        color: #f6821f;
+      }
+    }
+    h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 24px;
+      letter-spacing: -0.006em;
+      color: #2595d4;
+      justify-content: center;
+      display: flex;
+    }
+    .SelectCableBoxConatiner {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      margin-left: 11%;
+      .filterBox {
+        // margin: auto;
+        // justify-content: center;
+        // margin-left: 5%;
+        // margin: auto;
+        width: 30% !important;
+      }
+      .NOT_IN_THE_LIST_BOX {
+        margin-top: 6%;
+        margin-left: 2%;
+        width: 20% !important;
+      }
+      .ButtomInfo {
+        width: 80%;
+        h4 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.006em;
+          color: #f6821f;
+          justify-content: flex-start;
+          display: flex;
+        }
+      }
+      // h3 {
+      //   font-family: "Inter";
+      //   font-style: normal;
+      //   font-weight: 700;
+      //   font-size: 24px;
+      //   line-height: 24px;
+      //   letter-spacing: -0.006em;
+      //   color: #2595d4;
+      // }
+      // .SelectBox {
+      //   width: 100%;
+      //   margin: auto;
+      //   display: flex;
+      //   justify-content: center;
+      //   .filterBox {
+      //     // margin: auto;
+      //     margin-left: 20%;
+      //     width: 30% !important;
+      //   }
+      //   .NOT_IN_THE_LIST_BOX {
+      //     margin-top: 6%;
+      //     margin-left: 2%;
+      //     width: 20% !important;
+      //   }
+      //   .ButtomInfo {
+      //     h4 {
+      //       font-family: "Inter";
+      //       font-style: normal;
+      //       font-weight: 700;
+      //       font-size: 16px;
+      //       line-height: 24px;
+      //       letter-spacing: -0.006em;
+      //       color: #f6821f;
+      //       padding-right: 60%;
+      //     }
+      //     .cableInput {
+      //       margin-right: 60%;
+      //       width: 85%;
+      //     }
+      //   }
+      // }
+    }
+    .TerminalContainer {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      h3 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -0.006em;
+        color: #2595d4;
+      }
+      .ButtomInfo {
+        h4 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.006em;
+          color: #f6821f;
+        }
+      }
+      .SocketContainer {
+        background: #f4f5f9;
+        border-radius: 10.3327px;
+        height: 340px;
+        width: 100%;
+        position: relative;
+        .CustomizeImageBox {
+          width: 100%;
+          position: absolute;
+          top: 50px;
+          .MainImg {
+            width: 90%;
+            height: 180px;
+            margin: auto;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            .leftImg {
+              width: 200px;
+
+              img {
+                width: 100%;
+                cursor: pointer;
+              }
+              &:hover {
+                transform: scale(1.06);
+                // background-color: #FFFFFF;
+              }
+            }
+            .centerImg {
+              margin-top: 1%;
+              // margin-top: -5%;
+              width: 500px;
+              img {
+                width: 100%;
+                cursor: pointer;
+              }
+              &:hover {
+                transform: scale(1.05);
+              }
+            }
+            .heatSinkImg {
+              margin-top: 1%;
+              // margin-top: -2%;
+              width: 160px;
+              z-index: 10;
+              transform: translate(20px, 0px);
+              img {
+                width: 100%;
+                cursor: pointer;
+              }
+              &:hover {
+                transform: translate(20px, 0px) scale(1.05);
+              }
+            }
+            .heatSinkImg2 {
+              margin-top: 1%;
+              // margin-top: -2%;
+              width: 160px;
+              z-index: 10;
+              transform: translate(-20px, 0px);
+              img {
+                width: 100%;
+                cursor: pointer;
+              }
+              &:hover {
+                transform: translate(-20px, 0px) scale(1.05);
+              }
+            }
+            .rightImg {
+              width: 200px;
+              img {
+                width: 100%;
+                cursor: pointer;
+              }
+              &:hover {
+                transform: scale(1.06);
+              }
+            }
+          }
+        }
+        .BottomActionBox {
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
+          display: flex;
+          gap: 50px;
+          .ZoomInOutLeftRightButtons {
+            .CircleIconBox {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 39.45px;
+              height: 39.45px;
+              background: #ffffff;
+              border-radius: 40.685px;
+              cursor: pointer;
+            }
+          }
+          .SaveAndNextButton button {
+            border: none;
+            background: #f6821f;
+            border-radius: 4.69669px;
+            height: 49.18px;
+            width: 159.15px;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13.1507px;
+            line-height: 21px;
+            letter-spacing: 0.187867px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .HelpContainer {
+      margin: 40px 0;
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      a {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.006em;
+        color: #2595d4;
+      }
+      button {
+        background: #f6821f;
+        border-radius: 4.69669px;
+        border: none;
+        width: 126.15px;
+        height: 49.18px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 21px;
+        letter-spacing: 0.187867px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) and (min-width: 310px) {
+  .CustomizationWrapper {
+    .ItemCustomizationContainer {
+      width: 100% !important;
+      height: auto;
+      .HeaderTitle {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        h1 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          letter-spacing: -0.006em;
+          color: #f6821f;
+        }
+      }
+      h3 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.006em;
+        color: #2595d4;
+        justify-content: center;
+        display: flex;
+      }
+      .SelectCableBoxConatiner {
+        text-align: center;
+        width: 100% !important;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0 !important;
+        // h3 {
+        //   font-family: "Inter";
+        //   font-style: normal;
+        //   font-weight: 700;
+        //   font-size: 20px;
+        //   line-height: 24px;
+        //   letter-spacing: -0.006em;
+        //   color: #2595d4;
+        // }
+        .filterBox {
+          margin: auto;
+          margin: 0% !important;
+          width: 100% !important;
+        }
+        .NOT_IN_THE_LIST_BOX {
+          // margin: auto !important;
+          // margin: 0% !important;
+          // margin-top: 2% !important;
+          margin-left: 0 !important;
+          width: 100% !important;
+          .ButtomInfo {
+            width: 100% !important;
+          }
+        }
+        // .SelectBox {
+        //   display: flex;
+        //   flex-direction: column;
+        //   width: 100% !important;
+        //   margin: 0% !important;
+        //   padding-left: 0% !important;
+        //   // margin: -2% !important;
+        //   .filterBox {
+        //     margin: auto;
+        //     margin: 0% !important;
+        //     width: 100% !important;
+        //   }
+        //   .NOT_IN_THE_LIST_BOX {
+        //     // margin: auto !important;
+        //     // margin: 0% !important;
+        //     // margin-top: 2% !important;
+        //     // width: inherit !important;
+        //   }
+        //   .ButtomInfo {
+        //     h4 {
+        //       font-family: "Inter";
+        //       font-style: normal;
+        //       font-weight: 700;
+        //       font-size: 16px;
+        //       line-height: 24px;
+        //       letter-spacing: -0.006em;
+        //       color: #f6821f;
+        //       padding: 0% !important;
+        //       padding-right: 70% !important;
+        //     }
+        //     .cableInput {
+        //       // width: inherit;
+        //     }
+        //   }
+        // }
+      }
+      .TerminalContainer {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        h3 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: -0.006em;
+          color: #2595d4;
+          text-align: center;
+        }
+        .ButtomInfo {
+          h4 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.006em;
+            color: #f6821f;
+          }
+        }
+        .SocketContainer {
+          background: #f4f5f9;
+          border-radius: 10.3327px;
+          height: 280px;
+          width: 100%;
+          position: relative;
+          .CustomizeImageBox {
+            position: absolute;
+            top: 50px;
+            .MainImg {
+              width: 90%;
+              height: 110px;
+              margin: auto;
+              img {
+                width: 100%;
+              }
+            }
+          }
+          .BottomActionBox {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            display: flex;
+            gap: 20px;
+            .ZoomInOutLeftRightButtons {
+              .CircleIconBox {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 39.45px;
+                height: 39.45px;
+                background: #ffffff;
+                border-radius: 40.685px;
+                cursor: pointer;
+              }
+            }
+            .SaveAndNextButton button {
+              border: none;
+              background: #f6821f;
+              border-radius: 4.54913px;
+              width: 110.79px;
+              height: 38.29px;
+              font-family: "Montserrat";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 10px;
+              line-height: 20px;
+              letter-spacing: 0.187867px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+    .HelpContainer {
+      margin: 20px 0;
+      width: 100%;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      justify-content: center;
+      a {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.006em;
+        color: #2595d4;
+      }
+      button {
+        background: #f6821f;
+        border-radius: 4.69669px;
+        border: none;
+        width: 126.15px;
+        height: 30.18px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.187867px;
+        color: #ffffff;
+      }
+    }
+  }
+}

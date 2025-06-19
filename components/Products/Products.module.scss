@@ -1,0 +1,136 @@
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 30px;
+
+  .filter_container {
+    max-width: 350px;
+    border: 1px solid #d9d9d9;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+    .clear_button_container {
+      padding-top: 5%;
+      padding-left: 33%;
+      button {
+        background-color: #0d6efd;
+        color: #d9d9d9;
+      }
+    }
+  }
+
+  .filter_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #d9d9d9;
+    padding-bottom: 8px;
+    span {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+
+  .ProductGrid {
+    gap: 0.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    display: grid;
+    padding-bottom: 20px;
+  }
+}
+
+.checkbox {
+  margin-bottom: 5px;
+}
+
+.AccordionButton {
+  background-color: var(--app-primary-background-color) !important;
+  color: #fff;
+  margin-bottom: 15px;
+  .AccordionDetails {
+    background-color: #ecf4ff;
+    padding: 0px;
+  }
+  p {
+    color: #fff;
+  }
+  svg {
+    color: #fff;
+  }
+  ul {
+    padding: 0px;
+    margin: 0px;
+    li {
+      list-style: none;
+      border-bottom: 1px solid #3b6ed4;
+      button {
+        color: #3b6ed4;
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+      }
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+  }
+}
+.FormControl {
+  width: 100%;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 10px;
+  .FormLabel {
+    font-weight: bold;
+    border-bottom: 2px solid #3b6ed4;
+    color: #000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+}
+.paginationUI {
+  margin: 20px 0px;
+  float: right;
+}
+
+.no_product_container {
+  width: 100%;
+  border: 2px solid #f9f9f9;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  margin-top: 30px;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  .no_product {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      aspect-ratio: 25/16;
+    }
+  }
+  .no_product_text {
+    text-align: center;
+    > p:first-of-type {
+      color: #d98787;
+      font-weight: 600;
+      font-size: 2rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    > p:last-of-type {
+      color: #d98787;
+    }
+  }
+}
+
+@media (min-width: 280px) and (max-width: 520px) {
+  .main_container {
+    grid-template-columns: 1fr;
+  }
+}

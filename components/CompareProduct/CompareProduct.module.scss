@@ -1,0 +1,108 @@
+.BootstrapDialogTitle {
+  padding: 0 !important;
+}
+.DialogContent {
+  padding: 20px 50px !important;
+}
+.ProductHeader {
+  background: #2595d4;
+  border-radius: 5px;
+  padding: 20px;
+}
+.ProductTitle {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+.ProductGrid {
+  border: 1px solid #dee2e7;
+  padding: 20px;
+  border-radius: 5px;
+}
+.ProductImage {
+  display: flex;
+  justify-content: center;
+  img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+    border: 1px solid #dee2e7;
+    border-radius: 5px;
+  }
+}
+.TableContainer {
+  padding: auto;
+  margin: 20px 0px;
+
+  tr {
+    border: 1px solid rgba(224, 224, 224, 1);
+  }
+  th {
+    background: #eff2f4;
+    border: none;
+    padding: 10px;
+  }
+  td {
+    border: none;
+    padding: 10px;
+    text-align: left;
+  }
+}
+
+.ProductPriceSection {
+  background: #fff0df;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+.ProductPriceSection .Box {
+  line-height: 20px;
+}
+.ProductPriceSection .Box:first-child .Price {
+  color: #fa3434;
+}
+.ProductPriceSection span {
+  display: block;
+}
+.ProductPriceSection .Price {
+  color: #1c1c1c;
+  font-size: 18px;
+  font-weight: bold;
+}
+.ProductPriceSection .Qty {
+  color: #606060;
+  font-size: 14px;
+}
+.ProductFooterSection {
+  text-align: center;
+  margin-top: 20px;
+}
+.Request {
+  background: #f6821f;
+  background-color: #f6821f !important;
+  color: #fff !important;
+  border: 1px solid #f6821f !important;
+  min-width: 232px !important;
+}
+.Request:hover {
+  background: none;
+  background-color: #fff !important;
+  color: #f6821f !important;
+  border: 1px solid #f6821f !important;
+}
+
+.ViewProduct {
+  background: #2595d4;
+  background-color: #2595d4 !important;
+  color: #fff !important;
+  border: 1px solid #2595d4 !important;
+  min-width: 232px !important;
+}
+.ViewProduct:hover {
+  background: none;
+  background-color: #fff !important;
+  color: #2595d4 !important;
+  border: 1px solid #2595d4 !important;
+}

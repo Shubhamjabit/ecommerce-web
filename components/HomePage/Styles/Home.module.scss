@@ -1,0 +1,370 @@
+.sectionone {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .Title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .SectionBoxTwo {
+    position: relative;
+  }
+  .SectionBox {
+    position: relative;
+  }
+  .BoxOne {
+    background: rgb(230 115 0 / 81%);
+    position: absolute;
+    min-width: 60%;
+    padding: 30px;
+    bottom: 0;
+    left: 0;
+    h2 {
+      font-size: 20px;
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  }
+  .BoxTwo {
+    background: rgb(230 115 0 / 81%);
+    position: absolute;
+    min-width: 60%;
+    padding: 30px;
+    bottom: 0;
+    left: 0;
+    h2 {
+      font-size: 20px;
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  }
+  .HoverEffect {
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+    color: #fff;
+    /* max-width: 200px; */
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .HoverEffect:hover {
+    // background: #fff;
+    color: #fff;
+  }
+  .HoverEffect:after,
+  .HoverEffect:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-transition: all 0.9s ease 0s;
+    transition: all 0.9s ease 0s;
+    opacity: 1;
+    background-color: hsla(0, 0%, 100%, 0.6);
+  }
+  .HoverEffect:before {
+    -webkit-transform: translate(105%);
+    transform: translate(105%);
+    border-top: 1px solid hsla(0, 0%, 100%, 0.4);
+  }
+  .HoverEffect:after {
+    -webkit-transform: translate(-105%);
+    transform: translate(-105%);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.4);
+  }
+  .HoverEffect:hover:after,
+  .HoverEffect:hover:before {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    opacity: 0;
+  }
+}
+
+.sectiontwo {
+  background: #fafafa;
+  .SectionBox {
+    position: relative;
+  }
+  .SectionBox {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .BoxOne {
+    width: 100%;
+  }
+  h2 {
+    color: #1b66a1;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .HoverEffect {
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+    color: #fff;
+    /* max-width: 200px; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background: #f6821f;
+  }
+  .HoverEffect:hover {
+    // background: #fff;
+    color: #fff;
+  }
+  .HoverEffect:after,
+  .HoverEffect:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-transition: all 0.9s ease 0s;
+    transition: all 0.9s ease 0s;
+    opacity: 1;
+    background-color: hsla(0, 0%, 100%, 0.6);
+  }
+  .HoverEffect:before {
+    -webkit-transform: translate(105%);
+    transform: translate(105%);
+    border-top: 1px solid hsla(0, 0%, 100%, 0.4);
+  }
+  .HoverEffect:after {
+    -webkit-transform: translate(-105%);
+    transform: translate(-105%);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.4);
+  }
+  .HoverEffect:hover:after,
+  .HoverEffect:hover:before {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    opacity: 0;
+  }
+}
+
+.sectionthree {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .servicebox {
+    display: flex;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+    align-items: center;
+    height: 80px;
+  }
+
+  .servicebox .icon {
+    margin-right: 20px;
+    color: #f6821f;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .servicebox .icon img {
+    vertical-align: middle;
+    max-width: 100%;
+  }
+  .servicebox .content {
+    flex: 1;
+  }
+  .servicebox h6 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  .servicebox p {
+    margin: 0 0 30px;
+    color: #777777;
+    margin-bottom: 0px;
+  }
+}
+
+.sectionfour {
+  background: #f4f5f9;
+  padding: 50px;
+  margin: 20px 0px;
+  border-radius: 20px;
+  .servicebox {
+    display: flex;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    //background-color: #fff;
+    align-items: center;
+    height: 80px;
+  }
+
+  .servicebox .icon {
+    margin-right: 20px;
+    margin-bottom: 0;
+    max-width: 45px;
+    margin-top: 6px;
+  }
+  .servicebox .icon img {
+    vertical-align: middle;
+    max-width: 100%;
+  }
+  .servicebox .content {
+    flex: 1;
+  }
+  .servicebox h6 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #1c68a2;
+    font-weight: bold;
+  }
+  .servicebox p {
+    margin: 0 0 30px;
+    color: #1c68a2;
+    margin-bottom: 0px;
+  }
+}
+.Pd10 {
+  padding: 10px;
+}
+
+.BrandSectionLayout {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  .Title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .ImageSection {
+    height: 150px;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    object-fit: scale-down;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 479px) and (min-width: 310px) {
+  .sectionone {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    .Title {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .SectionBox:first-child {
+      margin-bottom: 10px;
+    }
+    .SectionBoxTwo {
+      position: relative;
+    }
+    .SectionBox {
+      position: relative;
+    }
+    .BoxOne {
+      background: rgb(230 115 0 / 81%);
+      position: absolute;
+      min-width: 60%;
+      padding: 15px;
+      bottom: 0;
+      left: 0;
+      h2 {
+        font-size: 16px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+    }
+    .BoxTwo {
+      padding: 15px;
+
+      h2 {
+        font-size: 16px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+    }
+    .HoverEffect {
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+  }
+
+  .Pd10 {
+    padding: 5px;
+  }
+  .sectiontwo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sectionthree {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    .servicebox {
+      margin-bottom: 20px;
+    }
+  }
+
+  .BrandSectionLayout {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    .Title {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .ImageSection {
+      height: auto;
+      padding: 10px;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      object-fit: scale-down;
+      height: 80px;
+    }
+  }
+
+  .sectionthree {
+    .servicebox .icon {
+      margin-right: 20px;
+      color: #f6821f;
+      font-size: 35px;
+      font-weight: bold;
+    }
+  }
+
+  .sectionfour {
+    padding: 15px;
+    .servicebox {
+      margin-bottom: 20px;
+    }
+  }
+}
