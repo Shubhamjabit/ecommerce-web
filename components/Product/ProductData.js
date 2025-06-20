@@ -58,6 +58,11 @@ const ProductData = ({
   // console.log("isLoading", isLoading);
 
   const [nonRegularQuoteModal, setnonRegularQuoteModal] = useState(false);
+  const [preassemblePrice, setPreassemblePrice] = useState(null);
+
+  const handlePreassemblePriceChange = (price) => {
+    setPreassemblePrice(price);
+  };
 
   const handleClose = () => {
     setnonRegularQuoteModal(false);
@@ -287,7 +292,10 @@ const ProductData = ({
           {/* <StarRow /> */}
         </>
       )}
-      <div className={styles.dispatchParentDiv}>
+
+      <div className="d-flex justify-content-between align-items-center">
+        <div className="price-tag-in-blue fw-bold text-primary fs-4">{preassemblePrice !== null ? `$${Number(preassemblePrice).toFixed(2)}` : ""}</div>
+        <div className={styles.dispatchParentDiv}>
         <div className={styles.dispatchNowDiv}>
           <span>
             {qty > parseFloat(product?.stock)
@@ -304,6 +312,7 @@ const ProductData = ({
             backordered
           </span>
         </div>
+      </div>
       </div>
       <hr className={styles.HR}></hr>
       {/* <span className={styles.outStockBlock}>Out of stock</span> */}
@@ -332,6 +341,7 @@ const ProductData = ({
                   heatSinkImageT2={heatSinkImageT2}
                   heatSinkImageT2Color={heatSinkImageT2Color}
                   setCustProduct={setCustProduct}
+                  onPriceChange={handlePreassemblePriceChange}
                 />
               ) : (
                 <h3 className={styles.CustTitle2}>
