@@ -141,7 +141,7 @@ export const ProductDetails = ({ product, T1, T2, cable }) => {
               (T1 && T1.sparkyId !== null && T2 && T2.sparkyId == null) ||
               (T2 && T2.sparkyId !== null) ? (
                 <>
-                  This is your customized lead and we will review and may
+                  This is your customised lead and we will review and may
                   contact you for more information. We will also email you the
                   Datasheet and specification shortly for your approval to
                   commence production.

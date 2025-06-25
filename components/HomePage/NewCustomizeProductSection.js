@@ -20,7 +20,7 @@ const NewCustomizeProductSection = () => {
               className={styles.CustomizeProductImage}
               src="/images/mobile-banner.svg"
               // src="/images/customize_section_image_with_border.png"
-              alt="Customize Product"
+              alt="Customise Product"
               layout="responsive"
               quality={100}
               height={280}
@@ -46,7 +46,7 @@ const NewCustomizeProductSection = () => {
               // }}
               onClick={() => handleCustomization()}
             >
-              Customize Now
+              Customise Now
             </button>
           </div>
         </div>
@@ -62,7 +62,7 @@ const NewCustomizeProductSection = () => {
           {/* Banner Text */}
           <div className={styles.CustomizeProductContent}>
             <h3>
-              Customize Cable Leads & Harnesses <br></br>
+              Customise Cable Leads & Harnesses <br></br>
               <span className={styles.highlight}>Limitless Choices</span>{" "}
               <br></br>
               <span>Infinite Possibilities</span>
@@ -71,7 +71,7 @@ const NewCustomizeProductSection = () => {
               className={styles.CustomizeNowBtn}
               onClick={() => handleCustomization()}
             >
-              Customize Now
+              Customise Now
             </button>
           </div>
 

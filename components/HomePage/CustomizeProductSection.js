@@ -20,7 +20,7 @@ const CustomizeProductSection = () => {
               className={styles.CustomizeProductImage}
               src="/images/mobile-banner.svg"
               // src="/images/customize_section_image_with_border.png"
-              alt="Customize Product"
+              alt="Customise Product"
               layout="responsive"
               quality={100}
               height={280}
@@ -46,7 +46,7 @@ const CustomizeProductSection = () => {
               // }}
               onClick={() => handleCustomization()}
             >
-              Customize Now
+              Customise Now
             </button>
           </div>
         </div>
@@ -57,7 +57,7 @@ const CustomizeProductSection = () => {
               className={styles.CustomizeProductImage}
               src="/images/desktop-banner.svg"
               // src="/images/customize_section_image_with_border.png"
-              alt="Customize Product"
+              alt="Customise Product"
               layout="responsive"
               quality={100}
               height={200}
@@ -83,7 +83,7 @@ const CustomizeProductSection = () => {
               // }}
               onClick={() => handleCustomization()}
             >
-              Customize Now
+              Customise Now
             </button>
           </div>
         </div>

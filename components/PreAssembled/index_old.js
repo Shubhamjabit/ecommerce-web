@@ -69,7 +69,7 @@ function PreAssembledUI() {
                                 <span className={styles.TextName}>{item && item.textName}</span>
                             </div>
                             <p>{item && item.description} </p>
-                            <button onClick={()=>handleCustomization(item && item.id)}>Customize</button>
+                            <button onClick={()=>handleCustomization(item && item.id)}>Customise</button>
                         </div>
                     </div>
                 </div>

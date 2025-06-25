@@ -89,7 +89,8 @@ const CategoryPage = ({
               }}
             >
               <h3 style={{ color: "black", fontWeight: "800" }}>
-                NOT IN THE LIST? CUSTOMIZE YOUR OWN LEAD
+                <p className="text-danger"> Not seeing what you need? </p>
+                <p className="text-success"> We’ve got you covered - Custom-Build your Cable Leads</p>
               </h3>
               <Link href="/customization">
                 <a>
@@ -104,7 +105,7 @@ const CategoryPage = ({
                     }}
                     // onClick={() => handleCustomization()}
                   >
-                    Customize
+                    Customise
                   </button>
                 </a>
               </Link>

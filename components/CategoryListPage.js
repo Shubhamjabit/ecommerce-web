@@ -10,6 +10,8 @@ import CategoryFilter from "./Category/CategoryFilter";
 import { endPoint, envUrl } from "../utils/factory";
 import { Bars } from "react-loader-spinner";
 import { Empty } from "antd";
+import Link from "next/link";
+
 const CategoryPage = ({ CategoryDataBySlug, CategoryData }) => {
   console.log(">>>>>>>>>>>> CategoryDataBySlug", CategoryDataBySlug);
   console.log(">>>>>>> CategoryData", CategoryData);
@@ -132,7 +134,40 @@ const CategoryPage = ({ CategoryDataBySlug, CategoryData }) => {
                       />
                     </div>
                   ) : (
+                    <>
+                    <div
+              style={{
+                width: "100%",
+                marginBottom: "30px",
+                display: "flex",
+                gap: "20px",
+                alignItems: "center",
+              }}
+            >
+              <h3 style={{ color: "black", fontWeight: "800" }}>
+                <p className="text-danger"> Not seeing what you need? </p>
+                <p className="text-success"> We’ve got you covered - Custom-Build your Cable Leads</p>
+              </h3>
+              <Link href="/customization">
+                <a>
+                  <button
+                    style={{
+                      border: "none",
+                      background: "#f6821f",
+                      padding: "8px 20px",
+                      color: "#fff",
+                      borderRadius: "5px",
+                      fontWeight: "bold",
+                    }}
+                    // onClick={() => handleCustomization()}
+                  >
+                    Customise
+                  </button>
+                </a>
+              </Link>
+            </div>
                     <CategotyList subcategory={subcategory} />
+                    </>
                   )}
                 </>
               ) : (

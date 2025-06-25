@@ -18,7 +18,7 @@ const ProductsearchItem = ({ product }) => {
         <a>
           <div className={styles.CategoryItemBox}>
             <div className={styles.CategoryOuterBox}>
-              <div className={styles.Title}>A01</div>
+              {/* <div className={styles.Title}>A01</div> */}
               <Row>
                 <Col className={styles.productimage}>
                   {product.product_media_list ? (

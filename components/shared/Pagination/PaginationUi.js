@@ -27,34 +27,36 @@ export default function PaginationUi({
 
   const handleChange = (event, value) => {
     console.log("rrrrrrrrr handleChange", value);
-    let indexPath = "/" + router.query.index;
+    let pathname = "/" + router.query.index;
     if (router.query.indextwo) {
-      indexPath = "/" + router.query.index + "/" + router.query.indextwo;
+      pathname += "/" + router.query.indextwo;
     }
 
-    let pathWithParameters =
-      indexPath +
-      "?page=" +
-      value +
-      getParameters({ query: router.query, skip: "page" });
+     const newQuery = {
+      ...router.query,
+      page: value,
+    };
 
-    console.log("rrrrrrrrrrrr pathWithParameters", pathWithParameters);
-
-    router.push(pathWithParameters, undefined, {
-      shallow: false,
-      scroll: true,
-    });
+    router.push(
+      {
+        pathname,
+        query: newQuery,
+      },
+      undefined,
+      {
+        shallow: false,
+        scroll: true,
+      }
+    );
 
     handlePagination(value);
   };
 
-  const getPageTotal = (totalPosts, pageSize) => {
-    const r = totalPosts % pageSize;
-    if (r == 0) {
-      return totalPosts / pageSize;
-    } else {
-      return parseInt(totalPosts / pageSize) + 1;
-    }
+   const getPageTotal = (totalPosts, pageSize) => {
+    const remainder = totalPosts % pageSize;
+    return remainder === 0
+      ? totalPosts / pageSize
+      : Math.floor(totalPosts / pageSize) + 1;
   };
   return (
     <div>

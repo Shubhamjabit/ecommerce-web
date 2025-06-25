@@ -531,7 +531,7 @@ const ProductData = ({
             <div className={styles.ModalTextContainerDiv}>
               <h4>Quotation Received!</h4>
               <p>
-                Your request for the customized product has been sent to our
+                Your request for the customised product has been sent to our
                 team. The details are sent to your email address.
               </p>
               <h5>Thank You!</h5>
@@ -543,7 +543,7 @@ const ProductData = ({
                   onClick={handleRequestQuote}
                   className={styles.CustomizeNewProduct}
                 >
-                  Customize New Product
+                  Customise New Product
                 </Button>
               </Link>
               <Link href="/">

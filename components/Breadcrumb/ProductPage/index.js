@@ -15,7 +15,7 @@ export const BreadcrumbUI = (props) => {
         <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
         {urlPath == "customized-product" ? (
           <Breadcrumb.Item className={Styles.activeTile} active>
-            Customized Product
+            Customised Product
           </Breadcrumb.Item>
         ) : (
           <Breadcrumb.Item className={Styles.activeTile} active>

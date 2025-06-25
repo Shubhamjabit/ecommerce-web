@@ -912,7 +912,7 @@ function ItemCustomization({ data, cableData }) {
       {/* Customization Properties */}
       <div className={styles.ItemCustomizationContainer} id="selectCableBox">
         <div className={styles.HeaderTitle}>
-          <h1>Customize and make your own lead</h1>
+          <h1>Customise and make your own lead</h1>
         </div>
         <h3>Select Cable</h3>
         <div className={styles.SelectCableBoxConatiner}>
