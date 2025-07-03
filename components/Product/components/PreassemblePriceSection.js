@@ -248,20 +248,20 @@ const PreassemblePriceSection = ({
   
     // Calculate Final Pricing
     let totalCosting = a + b;
-    let H = (wastePercentage * totalCosting) / 100;
-    let displayPricing =
-        (totalCosting + H + fixedCharges) * (1 + gpPercentage);
+    // let H = (wastePercentage * totalCosting) / 100;
+    // let displayPricing =
+    //     (totalCosting + H + fixedCharges) * (1 + gpPercentage);
       // let finalDisplayPricing = displayPricing * qty;
-      let finalDisplayPricing = displayPricing;
+      // let finalDisplayPricing = displayPricing;
   
     // Log intermediate values for debugging
     console.log('totalCosting', totalCosting);
     // console.log('Hanuman', H);  
-    console.log('finalDisplayPricing', finalDisplayPricing);
+    // console.log('finalDisplayPricing', finalDisplayPricing);
   
     // Update price state
-    setPrice(finalDisplayPricing);
-    return finalDisplayPricing;
+    setPrice(totalCosting);
+    return totalCosting;  
     }
   }
   }, [
