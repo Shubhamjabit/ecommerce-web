@@ -105,6 +105,15 @@ export const ProductDetails = ({ product, T1, T2, cable }) => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
+  function decodeHtml(html) {
+  if (typeof window !== "undefined") {
+    const txt = document.createElement("textarea");
+    txt.innerHTML = html;
+    return txt.value;
+  }
+  return html;
+}
+
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
   }
@@ -130,7 +139,7 @@ export const ProductDetails = ({ product, T1, T2, cable }) => {
         <Tab eventKey={TAB_DESCRIPTION} title="Description">
           {product && product.description ? (
             <p className={styles.productDetails}>
-              {parse(product.description)}
+              {parse(decodeHtml(product.description))}
             </p>
           ) : (
             <div

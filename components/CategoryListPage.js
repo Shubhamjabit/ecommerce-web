@@ -135,38 +135,24 @@ const CategoryPage = ({ CategoryDataBySlug, CategoryData }) => {
                     </div>
                   ) : (
                     <>
-                    <div
-              style={{
-                width: "100%",
-                marginBottom: "30px",
-                display: "flex",
-                gap: "20px",
-                alignItems: "center",
-              }}
-            >
-              <h3 style={{ color: "black", fontWeight: "800" }}>
-                <p className="text-danger"> Not seeing what you need? </p>
-                <p className="text-success"> We’ve got you covered - Custom-Build your Cable Leads</p>
-              </h3>
-              <Link href="/customization">
-                <a>
-                  <button
-                    style={{
-                      border: "none",
-                      background: "#f6821f",
-                      padding: "8px 20px",
-                      color: "#fff",
-                      borderRadius: "5px",
-                      fontWeight: "bold",
-                    }}
-                    // onClick={() => handleCustomization()}
-                  >
-                    Customise
-                  </button>
-                </a>
-              </Link>
-            </div>
-                    <CategotyList subcategory={subcategory} />
+                      {urlPath == "Pre Assembled Leads" && (
+                        <div className={styles.customBuildBanner}>
+                          <h3 className={styles.customBuildText}>
+                            <p className="text-danger" style={{ fontSize: "2rem", marginBottom:"0" }}>NOT SEEING WHAT YOU NEED?</p>
+                            <p className="text-success" style={{ fontSize: "1.2rem", marginBottom:"0" }}>
+                              We’ve got you covered - Custom-Build your Cable Leads
+                            </p>
+                          </h3>
+                          <Link href="/customization" passHref>
+                            <a>
+                              <button className={styles.customBuildBtn}>
+                                Customise
+                              </button>
+                            </a>
+                          </Link>
+                        </div>
+                      )}
+                      <CategotyList subcategory={subcategory} />
                     </>
                   )}
                 </>

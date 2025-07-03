@@ -63,12 +63,12 @@ function CartItems({}) {
 
   const handleIncrementQty = (productID) => {
     console.log("iiiiiiiii handleIncrementQty", productID);
-    setLoadData(true);
+    // setLoadData(true);
     dispatch(incrementQty(productID, 1));
   };
   const handleDecrementQty = (productID) => {
     console.log("iiiiiiiii handleDecrementQty", productID);
-    setLoadData(true);
+    // setLoadData(true);
     dispatch(decrementQty(productID));
   };
   const [deleteConfirmModal, setDeleteConfirmModal] = useState(false);
@@ -422,6 +422,7 @@ function CartItems({}) {
               />
               {cartData &&
                 cartData.map((item, index) => (
+                  console.log("item", item),
                   <>
                     <ItemCard
                       handleDecrementQty={(id) => handleDecrementQty(id)}

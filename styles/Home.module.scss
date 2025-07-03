@@ -159,3 +159,60 @@
   min-height: 450px;
   border: 1px solid #f4f5f9;
 }
+
+// Add to Home.module.scss or a relevant stylesheet
+.customBuildBanner {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  background: #f5faff;
+  border-radius: 8px;
+  padding: 18px 24px;
+  box-shadow: 0 2px 8px rgba(57, 169, 232, 0.08);
+  border: 1px solid #e0e7f0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 8px;
+    text-align: center;
+  }
+
+  .customBuildText {
+    color: #222;
+    font-weight: 800;
+    margin: 0;
+
+    .text-danger {
+      color: #e53935;
+      margin-bottom: 0;
+    }
+    .text-success {
+      color: #388e3c;
+      margin-bottom: 0;
+    }
+  }
+
+  .customBuildBtn {
+    border: none;
+    background: #f6821f;
+    padding: 10px 28px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(112, 107, 103, 0.08);
+    border: 1px solid rgb(103, 96, 96);
+
+    &:hover,
+    &:focus {
+      background: #d96c13;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
