@@ -11,7 +11,9 @@
     height: fit-content;
     .clear_button_container {
       padding-top: 5%;
-      padding-left: 33%;
+      // padding-left: 30%;
+      display: flex;
+      justify-content: space-around;
       button {
         background-color: #0d6efd;
         color: #d9d9d9;
