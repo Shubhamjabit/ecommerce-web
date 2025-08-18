@@ -1,0 +1,77 @@
+.TestimonialList {
+  // background: #eef2ff;
+  //padding: 50px;
+  // margin: 20px 0px;
+  margin-bottom: 50px;
+}
+.touritem {
+  .tourdes {
+    background: #fff;
+    color: #777777;
+    padding: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  .CardContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: none;
+    margin-right: 15px;
+  }
+  .designation {
+    color: #777777;
+    font-size: 12px;
+  }
+  .name {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 851px) {
+  .TestimonialList {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+  .touritem {
+    .tourdes {
+      background: #fff;
+      color: #777777;
+      padding: 30px;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+    .CardContent {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      max-width: none;
+      margin-right: 15px;
+    }
+    .designation {
+      color: #777777;
+      font-size: 10px;
+    }
+    .name {
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+}

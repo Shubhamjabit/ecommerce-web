@@ -1,0 +1,63 @@
+.CategoryItemBox {
+  margin-top: 0px;
+  height: 100%;
+  .CategoryOuterBox {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #cacaca;
+    text-align: center;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  .CategoryOuterBox:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-color: #2098d1;
+    border-style: solid;
+    border-width: 0;
+    -webkit-transition-property: border-width;
+    transition-property: border-width;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border-radius: 10px;
+  }
+  .CategoryOuterBox:hover:before,
+  .CategoryOuterBox:focus:before,
+  .CategoryOuterBox:active:before {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    border-width: 2px;
+  }
+  .Box {
+    //display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .logoImage {
+    padding: 0;
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .Name {
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+  }
+  .Title {
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+  }
+}

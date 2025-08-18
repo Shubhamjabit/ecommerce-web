@@ -1,0 +1,67 @@
+.breadcrumbsection {
+  padding: 80px 0px;
+  text-align: center;
+  background-image: url("/images/about.jpg");
+  background-color: #c8c3bf;
+  background-position: 50%;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.breadcrumbsection h1 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.breadcrumbsection p {
+  margin-bottom: 0px;
+  max-width: 700px;
+  font-size: 18px;
+  color: #fff;
+}
+.helpCenter {
+  background: #f4f9fc;
+  padding: 40px 0px;
+}
+.contactwrap {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+.content h5 {
+  color: #2798d6;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.icon .Avatar {
+  font-size: 24px;
+  line-height: 60px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  border-radius: 100%;
+  background-color: #2798d6;
+}
+.content button {
+  background: #2798d6;
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 20px;
+  text-transform: capitalize;
+}
+.mainContent {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.mainContent button {
+  width: 100%;
+  margin-top: 20px;
+}
+.headerLine {
+  font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+}
