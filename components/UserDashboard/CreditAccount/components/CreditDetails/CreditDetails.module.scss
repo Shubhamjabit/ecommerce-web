@@ -1,0 +1,74 @@
+.CreditBoxContainer {
+  position: relative;
+  padding: 20px;
+}
+.topic {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--app-sub-title-color);
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.divider {
+  margin-bottom: 25px;
+}
+.OrderTableContainer thead th {
+  font-weight: bold;
+}
+.NoData {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  width: 100%;
+  max-height: 450px;
+  min-height: 450px;
+  border: 1px solid #f4f5f9;
+}
+.CreditInfoBox {
+  height: 351px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .Box {
+    width: 456px;
+    height: 151.26px;
+    background: #f8f8f8;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 27px;
+      text-align: center;
+      color: #666666;
+    }
+    button {
+      border: none;
+      width: 157px;
+      height: 42.26px;
+      background: #2595d4;
+      border-radius: 5.7888px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13.8931px;
+      line-height: 19px;
+      color: #ffffff;
+    }
+  }
+}
+.LoaderSection {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  width: 100%;
+  max-height: 450px;
+  min-height: 450px;
+  border: 1px solid #f4f5f9;
+}

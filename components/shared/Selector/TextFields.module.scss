@@ -1,0 +1,30 @@
+.shippingDetailsFormText {
+    text-align: left;
+    font-family: var(--app-primary-font);
+    color: var(--app-sub-title-color);
+    font-size: var(--app-small-font-size);
+    font-style: var(--app-primary-font);
+    letter-spacing: 0px;
+  }
+  .shippingDetailsFormControll {
+    border: 1px solid var(--app-secondary-border-color);
+    border-radius: 2px;
+  
+    ::placeholder {
+      color: var(--app-sub-title-color);
+      opacity: 0.4;
+      font-family: var(--app-primary-font);
+      font-size: var(--app-small-font-size);
+    }
+  
+    &:hover {
+      border: 1px solid var(--app-primary-btn-border-color);
+      border-radius: 2px;
+    }
+    &:focus {
+      border: 1px solid var(--app-primary-btn-border-color);
+      border-radius: 2px;
+      box-shadow: 0 0 0 0rem rgb(34 34 34);
+    }
+  }
+  

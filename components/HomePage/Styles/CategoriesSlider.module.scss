@@ -1,0 +1,64 @@
+.CatecoriesSection {
+  width: 100%;
+   margin-bottom: 20px;
+  .TitleName {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    // margin-bottom: 10px;
+  }
+  .TitleName p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #1b66a1;
+  }
+  .CategoriesBoxContainer {
+    display: flex;
+    gap: 20px;
+
+    .ItemBox {
+      //width: 187.34px;
+      //height: 205.53px;
+      //background: #fafafa;
+      background: #fff;
+      border: 1.20087px solid #efefef;
+      border-radius: 14.4105px;
+      img {
+        width: 100%;
+        border-top-left-radius: 14.4105px;
+        border-top-right-radius: 14.4105px;
+        object-fit: contain;
+      }
+      p {
+        text-align: center;
+        margin-top: 18px;
+        // font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16.8122px;
+        line-height: 122.5%;
+        letter-spacing: 0.0168em;
+        font-feature-settings: "tnum" on, "lnum" on;
+        color: #000000;
+      }
+    }
+  }
+  .swiper-button-next:after {
+    font-size: 22px !important;
+  }
+}
+.swiper-button-next:after {
+  font-size: 22px !important;
+}
+
+@media screen and (max-width: 479px) and (min-width: 310px) {
+  .swiper-button-prev,
+  .swiper-button-next::after {
+    font-size: 22px !important;
+  }
+}

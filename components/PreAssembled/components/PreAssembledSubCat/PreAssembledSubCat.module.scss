@@ -1,0 +1,19 @@
+.ProductGrid {
+  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  display: grid;
+  padding-bottom: 20px;
+}
+.CategoryFilter {
+  .CheckBoxFormGroup {
+    margin-bottom: 20px;
+    background: #f7f7fa;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .FormLabel {
+    color: #19191d;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

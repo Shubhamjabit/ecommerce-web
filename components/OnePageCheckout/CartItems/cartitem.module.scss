@@ -1,0 +1,119 @@
+.cardItemSection {
+  background: #f8f8f8;
+  padding: 20px;
+  border: 1px solid #d5d5d5;
+  width: 100%;
+}
+.CheckoutPageTitle {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  margin-bottom: 20px !important;
+  display: flex;
+  justify-content: space-between;
+}
+.DownloadQuote {
+  background: #2595d4 !important;
+  background-color: #2595d4 !important ;
+  color: #fff !important;
+  font-size: 12px !important;
+}
+.cardItemList {
+  background: #fff;
+  box-shadow: none;
+  padding: 10px;
+  .SectionTwo {
+    padding: 0px !important;
+    .Days {
+      background: #d3ffd2;
+      color: #158212;
+      border-radius: 10px;
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+    .Name {
+      color: #000;
+      font-size: 14px;
+      margin: 10px 0px;
+      display: block;
+      font-weight: bold;
+    }
+    .Arrive {
+      color: #7d7d7d;
+      font-size: 14px;
+      display: block;
+    }
+  }
+}
+
+.SectionThree {
+  text-align: right;
+  .Price {
+    color: #000;
+    font-size: 14px;
+    margin: 5px 0px;
+    display: block;
+    font-weight: bold;
+  }
+  .ItemQty {
+    display: flex;
+    justify-content: flex-end;
+    .leftbtn {
+      border: 1px solid #d5d5d5;
+      color: #000;
+      min-width: auto;
+      border-radius: 5px 5px 5px 5px;
+      font-size: 16px;
+      padding: 5px;
+      line-height: 0;
+      height: fit-content;
+    }
+    .quantity {
+      color: #000;
+      padding: 4px 8px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .rightbtn {
+      border: 1px solid #d5d5d5;
+      color: #000;
+      min-width: auto;
+      border-radius: 5px 5px 5px 5px;
+      font-size: 16px;
+      padding: 5px;
+      line-height: 0;
+      height: fit-content;
+    }
+    svg {
+      font-size: 14px;
+    }
+  }
+}
+
+.quoteTemplate {
+  display: none;
+  // position: absolute;
+  // z-index: -1;
+  // bottom: 1500px;
+  // opacity: 0;
+}
+
+@media screen and (max-width: 479px) and (min-width: 310px) {
+  .cardItemList {
+    .Link {
+      width: 100px;
+      max-width: 100px;
+      display: block;
+      margin: auto;
+    }
+    .SectionTwo {
+      text-align: center;
+    }
+  }
+
+  .SectionThree {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

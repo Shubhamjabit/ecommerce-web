@@ -1,0 +1,56 @@
+.topic {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--app-sub-title-color);
+  text-align: left;
+  letter-spacing: 0px;
+}
+.table_action_button {
+  background-color: #2595d4;
+  padding: 5px 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.product_image_container {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #bdbdbd;
+  padding: 5px;
+  background-position: center;
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: "cover";
+  }
+}
+.Custom_Image {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0px, -50%);
+  img {
+    max-width: 33%;
+  }
+}
+// .css-f8465c-MuiGrid-root {
+//   width: fit-content !important;
+// }
+
+// .indexprofile_UserProfile__MXgYY .indexprofile_TabPanel__8V2Ls {
+//   width: fit-content;
+// }
+
+.LoaderOrderSection {
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 0px;
+  width: 100% !important;
+  max-height: 450px;
+  min-height: 450px;
+  border: 1px solid #f4f5f9;
+  text-align: center !important;
+}

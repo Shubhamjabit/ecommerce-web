@@ -1,0 +1,31 @@
+.topic {
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+.area {
+  font-family: var(--app-primary-font);
+  padding: 100px 0px;
+  text-align: center;
+}
+.area .Icon {
+  color: #52c41a;
+  margin-bottom: 20px;
+  display: block;
+  svg {
+    font-size: 60px;
+  }
+}
+.para {
+  padding-top: 30px;
+}
+
+.buttonContainer {
+  max-width: 300px;
+  float: left;
+}
+
+.highlight {
+  color: var(--app-secondary-font-color);
+  font-weight: var(--app-bold-font-weight);
+}

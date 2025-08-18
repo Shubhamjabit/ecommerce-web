@@ -1,0 +1,90 @@
+.topic {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--app-sub-title-color);
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.divider {
+  margin-bottom: 25px;
+}
+
+.rowMargins {
+  margin-bottom: 10px;
+}
+.DigitalCard {
+  background: #000;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  top: 15%;
+}
+.DigitalCard .logo {
+  text-align: right;
+}
+.membershipdetail {
+  padding-top: 0px;
+}
+.membershipdetail span {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding: 5px 0px;
+}
+.PersonalInformation .InputBox {
+  //background-color: #e9ecef;
+  border: 1px solid var(--app-secondary-border-color);
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+}
+.PersonalInformation .InputBoxdisabled {
+  background-color: #e9ecef;
+  border: 1px solid var(--app-secondary-border-color);
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+}
+.editprofilebutton {
+  background: var(--app-primary-background-color);
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+.editprofilebutton:focus {
+  outline: none;
+}
+.updateprofilebutton {
+  background: var(--app-primary-background-color);
+  color: #fff;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media (max-width: 992px) and (min-width: 310px) {
+  .Wrapper {
+    h1 {
+      font-size: 20px !important;
+    }
+  }
+}
